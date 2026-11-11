@@ -6,7 +6,7 @@ Certified Scrum Trainer since 2008 and co-founder of an agile training company i
 
 - **Miro board generator.** A talk or workshop is described as data (YAML), and one command builds the complete Miro board through the REST API. It logs every frame it creates. I used it to build my board live on stage at Agile Prague 2026. Built with Claude Code as co-developer.
 - **Agent tooling.** Custom Claude Code skills, commands and prompts, plus MCP servers that connect agents to the tools my team works with.
-- **Learning platforms.** When classes went remote in 2020, I built our own learning and admin systems in Swift, TypeScript/Node.js and PHP.
+- **Learning platforms.** When classes went remote in 2020, I maintained and extended our own learning and admin systems in Swift, TypeScript/Node.js and PHP.
 
 **How I work with AI: using vs. commissioning**
 
