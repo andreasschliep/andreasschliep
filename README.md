@@ -8,13 +8,13 @@ Certified Scrum Trainer since 2008 and co-founder of DasScrumTeam, an agile trai
 - **[learning-objective-lint](https://github.com/andreasschliep/learning-objective-lint).** Checks learning objectives against Bloom's taxonomy and shows whether a workshop agenda actually practises them at the intended level.
 - **[facilitation-planner](https://github.com/andreasschliep/facilitation-planner).** Plans a session backwards from what every participant must have done by a given minute, and checks the timing before anyone writes a facilitator guide.
 - **[wardley-map-builder](https://github.com/andreasschliep/wardley-map-builder).** One YAML file per Wardley map, rendered as a PNG or drawn onto a Miro board.
-- **Agent tooling.** Custom Claude Code skills, commands and prompts. In November 2026 I turned two of my tools into MCP servers (not public yet):
-  - **miro-board-mcp** lets an agent validate a board spec, preview the build and then create the board in Miro. Every build is a dry run until the agent confirms the exact spec it previewed, and the server only touches boards it created itself or that are on an allowlist.
-  - **course-standards-mcp** checks course material against learning objectives at a Bloom level and against a German/English Scrum term base. It reports what it can establish for certain and leaves the judgment "met or not" to the model and to me.
+- **Agent tooling.** Custom Claude Code skills, commands and prompts. In November 2026 I turned two of my tools into MCP servers:
+  - **[miro-board-mcp](https://github.com/andreasschliep/miro-board-mcp)** lets an agent turn a Markdown document with Mermaid diagrams into a Miro board: it validates the document, previews the build and then creates the board. The agent writes no coordinates; the server places every frame and element. Every build is a dry run until the agent confirms the exact document it previewed, and the server only touches boards it created itself or that are on an allowlist.
+  - **[course-standards-mcp](https://github.com/andreasschliep/course-standards-mcp)** checks course material against learning objectives at a Bloom level and against a German/English Scrum term base. It reports what it can establish for certain and leaves the judgment "met or not" to the model and to me.
 - **server-compromise-check** (not public yet). A daily, read-only compromise check for a handful of Debian and Ubuntu web servers. A Mac runs it every morning over an SSH key that can start the check and nothing else, and shows a summary and a notification.
 - **Learning platforms.** When classes went remote in 2020, I maintained and extended our own learning and admin systems in Swift, TypeScript/Node.js and PHP.
 
-The four public tools, the two MCP servers and the server check were built with Claude Code as co-developer.
+The four tools, the two MCP servers and the server check were built with Claude Code as co-developer.
 
 **How I work with AI: using vs. commissioning**
 
