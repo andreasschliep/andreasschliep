@@ -1,6 +1,6 @@
 ### Hi, I'm Andreas
 
-Certified Scrum Trainer since 2008 and co-founder of DasScrumTeam, an agile training company in Switzerland. Before I started training, I spent thirteen years as a software developer and team lead. Since 2023 I have been working with AI every day, in course design, research, operations and software development, mostly with Claude Code.
+Certified Scrum Trainer since 2008 and co-founder of DasScrumTeam, an agile training company in Switzerland. Before I started training, I spent thirteen years as a software developer and team lead. Since 2023 I have been working with AI every day, in course design, research, operations and software development – since 2025 mostly with Claude Code.
 
 **What I build**
 
